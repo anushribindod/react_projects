@@ -1,0 +1,128 @@
+body {
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+    color: #333;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #222;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 30px;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    color: #222;
+  }
+  
+  .input {
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    width: 100%;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  
+  .addBtn {
+    padding: 12px;
+    background-color: #38bdf8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    flex: 1;
+    min-width: 120px;
+  }
+  
+  .clearBtn {
+    padding: 12px;
+    background-color: #f16a6f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    flex: 1;
+    min-width: 120px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .theadRow {
+    background-color: #e2e8f0;
+  }
+  
+  .tbodyRow {
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .table th,
+  .table td {
+    padding: 14px;
+    text-align: left;
+  }
+  
+  .actionButtons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .updateBtn {
+    background-color: #f8b014;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .deleteBtn {
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
